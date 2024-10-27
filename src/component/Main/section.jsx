@@ -1,6 +1,5 @@
 import './section.css'
 import start from './img/Star.svg'
-import webImg from './img/Ellipse.png'
 export const Section = () => {
     return(
         <div className="container">
@@ -17,12 +16,6 @@ export const Section = () => {
         <button className='about-course--btn'>Kurslarni tanlash</button>
         </div>
         <div className="about-course--img">
-        {/* <img src={webImg} alt="" style={{
-            height:'100%',
-            backgroundColor:'#EAF4FF',
-            position:'absolute',
-            right:'0'
-        }} /> */}
     </div>
           </div>
           <div className='about-course--border'>
@@ -30,6 +23,10 @@ export const Section = () => {
             <span className='about-course--border-span1'></span>
             <span className='about-course--border-span2'></span>
           </div>
+          </section>
+
+          <section>
+            
           </section>
         </div>
     )

@@ -161,6 +161,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 52px 24px;
+    margin-bottom: 80px;
 }
 
 .about-teacher-box--img{
@@ -188,4 +189,39 @@
     font-weight: 600;
     color:#0B2441;
 
+}
+
+.about-card--box{
+    padding: 32px 25px 32px 32px;
+    background-color: #F1E2C1;
+    border-radius: 40px;
+    height: 224px;
+}
+.about-card--box:nth-child(2){
+    height: 250px;
+}
+.about{
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 80px;
+
+}
+
+.about-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.about-card--box__heading{
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 500;
+    color: #0B2441;
+}
+.about-card--box__heading1{
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 500;
+    color:#0B2441;
+    width: 534px;
 }

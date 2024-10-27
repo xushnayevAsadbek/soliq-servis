@@ -14,7 +14,10 @@ import teacherImg4 from './img/teacher-img4.jpg'
 import teacherImg5 from './img/teacher-img5.jpg'
 import teacherImg6 from './img/teacher-img6.jpg'
 import teacherImg7 from './img/teacher-img7.jpg'
-
+import aboutImg from './img/about-img1.jpg'
+import aboutImg2 from './img/about-img2.jpg'
+import like from './img/like.svg'
+import medal from './img/medal-star.jpg'
 
 
 
@@ -218,6 +221,34 @@ export const Section = () => {
 
                     </div>
             </div>
+          </section>
+
+          <section>
+          <h2 className='courses-teach-heading'>Biz haqimizda</h2>
+                    <div className='about'>
+                    <ul className='about-card'>
+                      <li className='about-card--box'>
+                    <img src={like} alt="" />
+                    <h3 className='about-card--box__heading'>
+                    Farobiy IT Academy - da biz oddiy ko'rinadigan yaratish harakati odamlar hayotida o'sish.
+                    </h3>
+                      </li>
+                      <li>
+                        <img src={aboutImg} alt="img" />
+                      </li>
+                    </ul>
+                    <ul className='about-card'>
+                      <li>
+                        <img src={aboutImg2} alt="img" />
+                      </li>
+                      <li className='about-card--box'>
+                    <img src={medal} alt="" />
+                    <h3 className='about-card--box__heading1'>
+                    Farobiy IT Academy - bu illyustratsiya, dizayn, fotografiya, video, freelancing va boshqa mavzularda ijodiy va qiziquvchan.
+                    </h3>
+                      </li>
+                    </ul>
+                    </div>
           </section>
         </div>
     )

@@ -72,3 +72,87 @@
     cursor: pointer;
   }
   
+.courses-teach{
+    margin-top: 80px;
+}
+  .courses-teach-heading{
+    color: #0B2441;
+    font-weight: 700;
+    font-size: 28px;
+    line-height:44px;
+    margin-bottom: 30px;
+}
+
+.courses-teach--wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+.courses-teach--box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.courses-teach--box__card1{
+    display: flex;
+    column-gap: 25px;
+}
+.courses-teach--box__card2{
+    display: flex;
+    column-gap: 24px;
+}
+.courses-teach--box__card5{
+    width: 280px;
+    height: 210px;
+    border-radius: 44px;
+    background-color: #EAF4FF;
+}
+.courses-teach--box__card5--heading{
+    padding: 32px 89px 0 32px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0B2441;
+    line-height: 28px;
+}
+.courses-teach--box__card5--text{
+    background-color: #2189FF;
+    color: #fff;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    transform: rotate(-13.21deg);
+    height: 48px;
+    width: 287px;
+    margin-top: 25px;
+}
+.box-position{
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.box-position--text{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color:#fff;
+}
+.box-position--btn{
+    background-color:#2189FF;
+    color: #fff;
+    padding: 10px 24px ;
+    border-radius:12px;
+    border:none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 137px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}

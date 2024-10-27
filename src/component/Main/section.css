@@ -1,0 +1,74 @@
+.about-course{
+    background-color: #EAF4FF;
+    border-radius: 44px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.about-course--title{
+    padding: 56px 0 64px 56px;
+}
+.about-course--title_box{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.about-course--title_box-text{
+    color: #0B2441;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.8;
+    font-weight: 500;
+}
+.about-course--title_p{
+    color: #0B2441;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 700;
+    width: 456px;
+    margin: 16px 0 56px 0;
+}
+.about-course--title_span{
+     color:#2189FF;
+    }
+.about-course--btn{
+    background-color: #2189FF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 16px 36px ;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500
+ }
+ .about-course--img{
+    position: absolute;
+    background-image: url('./img/Ellipse.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Rasmdan butunlay foydalanish */
+    background-position: center; /* Rasm markazda joylashadi */
+    width: 579px;
+    height:100%;
+    border-radius: 20px;
+    overflow: hidden;
+    right: -104px;
+ }
+  .about-course--border{
+    justify-content: end;
+    margin-top: 23px;
+    display: flex;
+    gap: 20px;
+  }
+  .about-course--border-span1{
+    border-bottom: 3px solid #002B53;
+    width: 32px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .about-course--border-span2{
+    border-bottom: 3px solid #2189FF;
+    width: 160px;
+    cursor: pointer;
+  }
+  

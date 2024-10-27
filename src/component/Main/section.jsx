@@ -250,6 +250,11 @@ export const Section = () => {
                     </ul>
                     </div>
           </section>
+
+          <section>
+          <h2 className='courses-teach-heading'>Ko'p so'raladigan savollar</h2>
+
+          </section>
         </div>
     )
 }

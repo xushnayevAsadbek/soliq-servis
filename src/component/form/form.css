@@ -1,0 +1,22 @@
+.form-box{
+    padding: 64px 81px 0 56px;
+    background-color: #EAF4FF;
+    border-radius: 40px;
+    margin-bottom: 80px;
+}
+
+.form-box--heading{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0B2441;
+}
+.form-box--text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.form-box--img{
+    
+}

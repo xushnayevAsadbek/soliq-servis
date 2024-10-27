@@ -1,0 +1,31 @@
+
+.accordion-item {
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 24px;
+    color: #0B2441;
+    font-weight: 600;
+    background-color: #F4F4F4;
+}
+
+.accordion-content {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+    background-color: white;
+    
+}
+
+.icon {
+    font-size: 18px;
+    color: #7e7e7e;
+}

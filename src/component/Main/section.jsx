@@ -6,7 +6,16 @@ import img3 from './img/img3.png'
 import img4 from './img/img4.png'
 import img5 from './img/img5.png'
 import rightIcon from './img/right-icon.svg'
-import bgBlack from './img/bg-black.jpg'
+import Dasturlash from './img/Dasturlash.svg'
+import teacherImg1 from './img/teacher-img1.jpg'
+import teacherImg2 from './img/teacher-img2.jpg'
+import teacherImg3 from './img/teacher-img3.jpg'
+import teacherImg4 from './img/teacher-img4.jpg'
+import teacherImg5 from './img/teacher-img5.jpg'
+import teacherImg6 from './img/teacher-img6.jpg'
+import teacherImg7 from './img/teacher-img7.jpg'
+
+
 
 
 export const Section = () => {
@@ -129,6 +138,85 @@ export const Section = () => {
                     </div>
                     </div> 
                 </div>
+            </div>
+          </section>
+
+          <section>
+            <div>
+            <h2 className='courses-teach-heading'>Bizning ustozlarimiz</h2>
+                    <div className='about-teacher'>
+                    <div className='about-teacher-box'>
+                    <img src={teacherImg1} alt="teacher img" className='about-teacher-box--img' />
+                    <h4 className='about-teacher-box--heading'>
+                    Alisherova Anvara
+                    </h4>
+                    <div className='about-teacher-card'>
+                    <img src={Dasturlash} alt="" />
+                    <p className='about-teacher-box--span'>Dasturlash ustozi</p>
+                    </div>
+                    </div>
+                    <div className='about-teacher-box'>
+                    <img src={teacherImg2} alt="teacher img" className='about-teacher-box--img' />
+                    <h4 className='about-teacher-box--heading'>
+                    Alisherova Anvara
+                    </h4>
+                    <div className='about-teacher-card'>
+                    <img src={Dasturlash} alt="" />
+                    <p className='about-teacher-box--span'>Dasturlash ustozi</p>
+                    </div>
+                    </div>
+                    <div className='about-teacher-box'>
+                    <img src={teacherImg3} alt="teacher img" className='about-teacher-box--img' />
+                    <h4 className='about-teacher-box--heading'>
+                    Alisherova Anvara
+                    </h4>
+                    <div className='about-teacher-card'>
+                    <img src={Dasturlash} alt="" />
+                    <p className='about-teacher-box--span'>Dasturlash ustozi</p>
+                    </div>
+                    </div>
+                    <div className='about-teacher-box'>
+                    <img src={teacherImg4} alt="teacher img" className='about-teacher-box--img' />
+                    <h4 className='about-teacher-box--heading'>
+                    Alisherova Anvara
+                    </h4>
+                    <div className='about-teacher-card'>
+                    <img src={Dasturlash} alt="" />
+                    <p className='about-teacher-box--span'>Dasturlash ustozi</p>
+                    </div>
+                    </div>
+                    <div className='about-teacher-box'>
+                    <img src={teacherImg5} alt="teacher img" className='about-teacher-box--img' />
+                    <h4 className='about-teacher-box--heading'>
+                    Zokir Malikov
+                    </h4>
+                    <div className='about-teacher-card'>
+                    <img src={Dasturlash} alt="" />
+                    <p className='about-teacher-box--span'>Dasturlash ustozi</p>
+                    </div>
+                    </div>
+                    <div className='about-teacher-box'>
+                    <img src={teacherImg6} alt="teacher img" className='about-teacher-box--img' />
+                    <h4 className='about-teacher-box--heading'>
+                    Anvara Xoliqova
+                    </h4>
+                    <div className='about-teacher-card'>
+                    <img src={Dasturlash} alt="" />
+                    <p className='about-teacher-box--span'>Dasturlash ustozi</p>
+                    </div>
+                    </div>
+                    <div className='about-teacher-box'>
+                    <img src={teacherImg7} alt="teacher img" className='about-teacher-box--img' />
+                    <h4 className='about-teacher-box--heading'>
+                    Alisherova Anvara
+                    </h4>
+                    <div className='about-teacher-card'>
+                    <img src={Dasturlash} alt="" />
+                    <p className='about-teacher-box--span'>Dasturlash ustozi</p>
+                    </div>
+                    </div>
+
+                    </div>
             </div>
           </section>
         </div>

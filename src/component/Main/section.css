@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    overflow: hidden;
 }
 .about-course--title{
     padding: 56px 0 64px 56px;
@@ -31,7 +32,15 @@
 }
 .about-course--title_span{
      color:#2189FF;
+     position: relative;
 }  
+.about-course--title_span1{
+    position: absolute;
+    bottom: -23px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
 .about-course--btn{
     background-color: #2189FF;
     color: #fff;
@@ -134,6 +143,16 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    z-index: 99999;
+
+}
+.card-shadow {
+    height: calc(100% - 4px);
+    top: 0;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 70.9%);
+    border-radius:44px;
 
 }
 .box-position--text{

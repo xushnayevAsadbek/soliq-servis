@@ -18,6 +18,8 @@ import aboutImg from './img/about-img1.jpg'
 import aboutImg2 from './img/about-img2.jpg'
 import like from './img/like.svg'
 import medal from './img/medal-star.jpg'
+import vector from './img/Vector.png'
+
 
 
 
@@ -32,7 +34,9 @@ export const Section = () => {
         <img src={start} alt="start-icon" />
         </div>
         <p className='about-course--title_p'>
-        Biz sizga <span className='about-course--title_span'>zamonaviy kasbni</span> o'rganishga va ish boshlashingizga yordam beramiz
+        Biz sizga <span className='about-course--title_span'>zamonaviy kasbni
+        <span className='about-course--title_span1'><img src={vector} alt="" /></span>
+        </span> o'rganishga va ish boshlashingizga yordam beramiz
         </p>
         <button className='about-course--btn'>Kurslarni tanlash</button>
         </div>
@@ -53,7 +57,9 @@ export const Section = () => {
                    <div className='courses-teach--box'>
                   <div className='courses-teach--box__card1'>
                  <div style={{
-                    position:'relative'
+                    position:'relative',
+                    // background: "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 70.9%)"
+
                  }}>
                  <img src={img1} alt="course-img" style={{
                         width:"381px",
@@ -65,23 +71,22 @@ export const Section = () => {
                     <p className='box-position--text'>Dasturlash</p>
                     <button className='box-position--btn'>Batafsil <img src={rightIcon} alt="icon" /></button>
                     </div>
+                    <div className='card-shadow'></div>
                  </div>
                     <div style={{
-                      position:'relative'
+                      position:'relative',
                     }}>
                     <img src={img2} alt="course-img" style={{
                         width:"482px",
                         height:"273px",
                         borderRadius:"44px",
-                        objectFit:"cover"
-                        
+                        objectFit:"cover",
                     }} />
                     <div className='box-position'>
-                     
                     <p className='box-position--text'>Dizayn</p>
                     <button className='box-position--btn'>Batafsil <img src={rightIcon} alt="icon" /></button>
                     </div>
-                   
+                    <div className='card-shadow'></div>
                     </div>
                   </div>
                   <div className='courses-teach--box__card2'>
@@ -98,6 +103,7 @@ export const Section = () => {
                     <p className='box-position--text'>Logistika broketligi</p>
                     <button className='box-position--btn'>Batafsil <img src={rightIcon} alt="icon" /></button>
                     </div>
+                    <div className='card-shadow'></div>
                  </div>
                     <div style={{
                       position:'relative'
@@ -112,6 +118,7 @@ export const Section = () => {
                     <p className='box-position--text'>Videomontaj va maxsus effektlar</p>
                     <button className='box-position--btn'>Batafsil <img src={rightIcon} alt="icon" /></button>
                     </div>
+                    <div className='card-shadow'></div>
                     </div>
                   </div >
                     </div> 
@@ -130,6 +137,7 @@ export const Section = () => {
                     <p className='box-position--text'>Marketing</p>
                     <button className='box-position--btn'>Batafsil <img src={rightIcon} alt="icon" /></button>
                     </div>
+                    <div className='card-shadow'></div>
                     </div>
                     <div className='courses-teach--box__card5'>
                     <h3 className='courses-teach--box__card5--heading'>
